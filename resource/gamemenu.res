@@ -1,5 +1,35 @@
 "GameMenu"
 {
+	"0"
+	{
+		"label" "JOIN REBELS"
+		"command" "engine jointeam 3"
+		"OnlyInGame" "1"
+	}
+	"0"
+	{
+		"label" "JOIN COMBINE"
+		"command" "engine jointeam 2"
+		"OnlyInGame" "1"
+	}
+	"0"
+	{
+		"label" "SPECTATE"
+		"command" "engine spectate"
+		"OnlyInGame" "1"
+	}
+	"0"
+	{
+		"label" "CLOSE SPECTATOR MENU"
+		"command" "engine hidepanel specmenu"
+		"OnlyInGame" "1"
+	}
+	"0"
+	{
+		"label" ""
+		"command" ""
+		"OnlyInGame" "1"
+	}
 	"1"
 	{
 		"label" "#GameUI_GameMenu_ResumeGame"

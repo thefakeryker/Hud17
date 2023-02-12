@@ -103,8 +103,8 @@
 	HudAmmo
 	{
 		"fieldName" "HudAmmo"
-		"xpos"	"r150"
-		"ypos"	"332"
+		"xpos"	"c-70"
+		"ypos"	"352"
 		"wide"	"136"
 		"tall"  "36"
 		"visible" "1"
@@ -146,7 +146,7 @@
 		"wide"	"140"
 		"tall"	"16"
 		
-		"AuxPowerLowColor" "255 0 0 220"
+		"AuxPowerLowColor" "255 220 0 220"
 		"AuxPowerHighColor" "255 220 0 220"
 		"AuxPowerDisabledAlpha" "70"
 
