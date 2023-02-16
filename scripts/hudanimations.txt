@@ -515,8 +515,8 @@ event WeaponUsesSecondaryAmmo
 event WeaponDoesNotUseSecondaryAmmo
 {
 	StopPanelAnimations	HudAmmoSecondary 	0.0
-	Animate HudAmmoSecondary	FgColor		"0 0 0 0"	Linear	0.0		0.4
-	Animate HudAmmoSecondary	BgColor		"0 0 0 0"	Linear	0.0		0.4
+	Animate HudAmmoSecondary	FgColor		"0 0 0 0"	Linear	0.0		0.0
+	Animate HudAmmoSecondary	BgColor		"0 0 0 0"	Linear	0.0		0.0
 	Animate HudAmmoSecondary	Alpha		255		Linear	0.0		0.1
 }
 

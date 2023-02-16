@@ -59,7 +59,7 @@ Scheme
 
 		// HL1-style HUD colors
 		"Yellowish"			"255 160 0 255"
-		"Normal"			"255 208 64 255"
+		"Normal"			"255 255 255 255"
 		"Caution"			"255 48 0 255"
 
 		// Top-left corner of the "Half-Life 2" on the main screen
@@ -459,15 +459,6 @@ Scheme
 				"weight"		"0"
 			}
 		}
-		"MenuTitle"
-		{
-			"1"
-			{
-				"name"		"Verdana Bold"
-				"tall"		"18"
-				"weight"	"500"
-			}
-		}
 		WeaponIcons
 		{
 			"1"
@@ -499,13 +490,13 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"40" [!$OSX]
-				"tall"		"41" [$OSX]
+				"tall"		"40"
 				"weight"	"0"
 				"antialias" "0"
 				"additive"	"1"
 				"custom"	"1"
 				"yres"		"1 10000"
+				"outline"	"1"
 			}
 		}
 		QuickInfo
@@ -513,12 +504,11 @@ Scheme
 			"1"
 			{
 				"name"		"HL2cross"
-				"tall"		"28" [!$OSX]
-				"tall"		"50" [$OSX]
+				"tall"		"28"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
-				"custom"	"1" [!$OSX]
+				"custom"	"1"
 			}
 		}
 		HudNumbers
@@ -551,8 +541,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2" [!$OSX]
-				"name"		"Helvetica Bold" [$OSX]
+				"name"		"HalfLife2"
 				"tall"		"16"
 				"weight"	"1000"
 				"additive"	"1"
@@ -575,8 +564,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana" [!$OSX]
-				"name"		"Helvetica Bold" [$OSX]
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"1000"
 				"antialias" "1"
@@ -587,8 +575,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"Verdana"
 				"tall"		"11"
 				"weight"	"0"
 				"antialias" "1"
@@ -662,10 +649,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
+				"name"		"Tahoma"
 				"tall"		"26"
 				"weight"	"500"
 			}
@@ -674,10 +658,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Italic" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
+				"name"		"Tahoma"
 				"tall"		"26"
 				"weight"	"500"
 				"italic"	"1"
@@ -687,10 +668,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
+				"name"		"Tahoma"
 				"tall"		"26"
 				"weight"	"900"
 			}
@@ -699,26 +677,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold Italic" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
+				"name"		"Tahoma"
 				"tall"		"26"
 				"weight"	"900"
 				"italic"	"1"
-			}
-		}
-		"CloseCaption_Small"
-		{
-			"1"
-			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"16" [!$OSX]
-				"tall"		"14" [$OSX]
- 				"tall_hidef"	"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		// this is the symbol font
@@ -814,8 +776,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"Trebuchet MS"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -886,7 +847,6 @@ Scheme
 				"weight" "0"
 				"additive" "1"
 				"antialias" "1"
-				"custom" "1" [$OSX]
 		   }
 		}	
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
