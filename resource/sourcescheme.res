@@ -20,7 +20,7 @@ Scheme
 		"OffWhite"			"221 221 221 255"
 		"DullWhite"			"190 190 190 255"
 		"Orange"			"255 155 0 255"
-		"TransparentBlack"	"0 0 0 128"
+		"TransparentBlack"	"40 40 40 255"
 		"Black"				"0 0 0 255"
 
 		"Blank"				"0 0 0 0"
@@ -38,8 +38,8 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"200 200 200 196"	// the lit side of a control
-		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
+		Border.Bright					"100 100 100 125"	// the lit side of a control
+		Border.Dark						"100 100 100 125"		// the dark/unlit side of a control
 		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
@@ -70,9 +70,9 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 128"	[$WIN32]
+		Frame.BgColor					"25 25 25 255"	[$WIN32]
 		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
+		Frame.OutOfFocusBgColor			"25 25 25 200"	[$WIN32]
 		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
 		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
@@ -111,7 +111,7 @@ Scheme
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Orange"
-		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
+		ListPanel.SelectedOutOfFocusBgColor	"40 40 40 200"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
@@ -159,7 +159,7 @@ Scheme
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Orange"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"40 40 40 200"
 
 		Slider.NobColor				"108 108 108 255"
 		Slider.TextColor			"180 180 180 255"
@@ -174,7 +174,7 @@ Scheme
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
 		TextEntry.SelectedBgColor	"Orange"
-		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
+		TextEntry.OutOfFocusSelectedBgColor	"40 40 40 200"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 
 		ToggleButton.SelectedTextColor	"White"
@@ -887,7 +887,18 @@ Scheme
 		FrameBorder
 		{
 			// rounded corners for frames
-			"backgroundtype" "2"
+			"backgroundtype" "0"
+
+			"inset" "0 0 0 0"
+			Top
+			{
+				"1"
+				{
+					"color" "Orange"
+					"offset" "0 0"
+				}
+			}
+
 		}
 
 		DepressedBorder
@@ -1091,7 +1102,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "DullWhite"
 					"offset" "0 0"
 				}
 			}
@@ -1123,7 +1134,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
+					"color" "Orange"
 					"offset" "0 0"
 				}
 			}
