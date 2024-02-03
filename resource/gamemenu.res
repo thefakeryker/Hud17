@@ -80,6 +80,11 @@
 		"OnlyWhenVREnabled" "1"
 		"OnlyWhenVRActive" "1"
 	}
+	"9"
+	{
+		"label" "OPEN DEMO PLAYER"
+		"command" "engine demoui2"
+	}
 	"10"
 	{
 		"label" "#GameUI_GameMenu_Options"

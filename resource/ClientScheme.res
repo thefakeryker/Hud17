@@ -849,6 +849,19 @@ Scheme
 				"antialias" "1"
 		   }
 		}	
+		
+		"CSSSkull"
+		{
+		   "1"
+		   {
+				"name"  "csd" // use C
+				"tall"  "32"
+				"weight" "0"
+				"additive" "1"
+				"antialias" "1"
+		   }
+		}
+		
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -1538,6 +1551,7 @@ Scheme
 		"1"		"resource/HALFLIFE2.ttf"
 		"1"		"resource/HL2MP.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
+		"3"		"resource/csd.ttf"
 	}
 
 }

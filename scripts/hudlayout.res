@@ -55,31 +55,38 @@
 
 	HudVoiceStatus
 	{
-		"fieldName" "HudVoiceStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r145"
-		"ypos" "0"
-		"wide" "145"
-		"tall" "400"
+		"fieldName"  "HudVoiceStatus"
+		"visible"    "1"
+		"enabled"    "1"
+		"xpos"       "r190"
+		"ypos"       "-20"
+		"wide"       "180"
+		"tall"       "400"
 
-		"item_wide"	"135"
-		
-		"show_avatar"		"0"
-		
-		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
-		"dead_ypos"			"0"
-		"dead_wide"			"16"
-		"dead_tall"			"16"
-		
-		"show_voice_icon"	"1"
-		"icon_ypos"			"0"
-		"icon_xpos"			"15"
-		"icon_tall"			"16"
-		"icon_wide"			"16"
-		
-		"text_xpos"			"33"
+		"item_wide"     "180"
+		"item_tall"     "16" // new
+		"item_spacing"  "2" // new
+
+		"show_avatar"  "1"
+		"show_friend"  "0" // if enabled, then the avatar is indented by 1 pixel from the top
+		"avatar_xpos"  "16" // new
+		"avatar_ypos"  "0" // new
+		"avatar_wide"  "16" // new
+		"avatar_tall"  "16" // new
+
+		"show_dead_icon"  "1"
+		"dead_xpos"       "0"
+		"dead_ypos"       "0"
+		"dead_wide"       "16"
+		"dead_tall"       "16"
+
+		"show_voice_icon"  "0" // panel is visible itself, icon dont need
+		"icon_xpos"        "16"
+		"icon_ypos"        "0"
+		"icon_wide"        "16"
+		"icon_tall"        "16"
+
+		"text_xpos"  "36"
 	}
 	
 	HudSuit
